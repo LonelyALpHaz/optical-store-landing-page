@@ -1,0 +1,196 @@
+/* Reset all CSS elements */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    background-color: var(--color2);
+    color: var(--color1);
+}
+
+/* Body, fonts, footer and other elements */
+
+
+body {
+    --color1: #FFE2FE;
+    --color2: #262322;
+    --color3: #838E83;
+    background-color: var(--color1);
+    font-family: "Playwrite AU SA", cursive;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+h1, h2, p {
+    color: var(--color2);
+}
+
+hr {
+    width: 90%;
+    color: var(--color2);
+}
+
+footer {
+    display: none;
+}
+
+/* Nav bar */
+
+#logo {
+    width: 64px;
+}
+
+.site-name {
+    font-size: 1.5rem;
+    color: var(--color2);
+    padding-left: 10px;
+}
+
+.nav-bar {
+    background-color: var(--color1);
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    top: 0;
+    z-index: 100;
+    padding: 12px 20px;
+}
+
+.menu {
+    display: flex;
+    margin-left: 50%;
+    li {
+        padding-left: 30px;
+    }
+    a {
+        font-size: 1.5rem;
+    }
+    li, a {
+        display: inline-block;
+        color: var(--color2);
+        text-decoration: none;
+        text-align: center;
+        position: relative;
+        letter-spacing: 2px;
+    }
+}
+
+.open-menu, .close-menu {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/* Home container and it's elements */
+
+.home-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.text-container {
+    flex: 1;
+    font-weight: 100;
+    margin-left: 5%;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.site-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Products container and it's elements */
+
+.title {
+    text-align: center;
+    margin: 5% 0% 5%;
+    hr {
+        margin: 2% 0% 0% 5%;
+    }
+}
+
+.showcase-container {
+    text-align: center;
+}
+
+.showcase-products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+}
+
+.showcase-image {
+    width: 30%;
+    border-radius: 5px;
+    margin: 0% 5% 0% 5%;
+}
+
+.showcase-text {
+    text-align: center;
+    max-width: 50%;
+    margin: 0% 2% 0% 2%;
+}
+
+.bg-container {
+    display: flex;
+    background-color: black;
+    margin-bottom: 5%;
+}
+
+.bg-image {
+    width: 60%;
+}
+
+.site-logo {
+    filter: invert();
+}
+
+.bg-text {
+    text-align: center;
+    margin: 10% 0;
+    h1 {
+        font-size: 3.5rem;
+    }
+    p {
+        font-size: 1.3rem;
+    }
+    h1, p{
+        text-align: center;
+        color: var(--color1);
+    }
+}
+
+/* Mark */
+
+mark .bold {
+    font-weight: bolder;
+}
