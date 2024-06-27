@@ -79,6 +79,12 @@ footer {
     padding: 12px 20px;
 }
 
+.nav-button:hover {
+    text-decoration: underline;
+    color: var(--color2);
+    transition: 0.15s ease-in-out;
+}
+
 .menu {
     display: flex;
     margin-left: 50%;
