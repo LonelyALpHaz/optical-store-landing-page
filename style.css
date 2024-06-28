@@ -25,7 +25,6 @@ html {
 body {
     --color1: #EEF0F2;
     --color2: #262322;
-    --color3: #838E83;
     background-color: var(--color1);
     font-family: "Playwrite AU SA", cursive;
 }
@@ -317,7 +316,7 @@ footer {
 }
 
 .active, .dot:hover {
-    background-color: var(--color3);
+    background-color: var(--color2);
 }
 
 /* Adress container */
