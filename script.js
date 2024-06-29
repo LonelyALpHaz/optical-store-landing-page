@@ -29,7 +29,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 } 
 
-// Map function
+// Map and marker latitude and longitude definition
 
 var map = L.map('map').setView([-23.5113, -46.8768], 13);
 
@@ -37,3 +37,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
+
+var marker = L.marker([-23.5113, -46.8768]).addTo(map);
+
+marker.bindPopup("<b>Rua Sem Nome - nº 00</b><br>Barueri - SP").openPopup();
