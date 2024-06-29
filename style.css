@@ -565,17 +565,15 @@ footer {
     }
 
     /* Contact container and it's elements */
-
-    .adress-container {
-        p {
-            margin: 0% 0% 0% 2%;
-        }
-    }
     
     #map {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 10% 0;
+        left: 2%;
         width: 345px;
         height: 400px;
-        margin: 10% 2% 5%;
     }
 
     .social {
