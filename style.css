@@ -578,7 +578,8 @@ footer {
 
     #map {
         margin: 10% 0;
-        width: 100%;
+        left: 1%;
+        width: 98%;
         height: 420px;
     }
 
