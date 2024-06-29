@@ -400,3 +400,187 @@ footer {
     from {opacity: .4}
     to {opacity: 1}
 }
+
+@media screen and (max-width: 610px) {
+
+    /* Body, fonts, footer and other elements */
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    footer {
+        p {
+            font-size: 0.8rem;
+        }
+    }
+
+    /* Top nnav bar */
+
+    .nav-bar {
+        padding: 8px 10px;
+    }
+
+    #logo {
+        width: 45px;
+    }
+
+    .site-name {
+        font-size: 1.2rem;
+        text-wrap: nowrap;
+    }
+    
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        width: 80%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: var(--color1);
+        transition: all 0.2s ease-in-out;
+        li, a {
+            display: flex;
+            font-size: 1.5rem;
+            padding: 10px;
+            text-align: center;
+        }
+    }
+
+    .open-menu {
+        margin-left: 45%;
+    }
+
+    .close-menu {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+
+    .open-menu, .close-menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    #check:checked ~ .menu {right: 0;}
+
+    /* Home container and it's elements */
+
+    .home-container {
+        flex-direction: column-reverse;
+        margin: 30% 0% 25%;
+    }
+
+    .text-container {
+        text-align: center;
+        margin: 10% 0% 8%;
+        h1 {
+            font-size: 1.6rem;
+        }
+    }
+
+    /* Products container and it's elements */
+
+    .showcase-image {
+        width: 160px;
+        height: 260px;
+        margin: 5% 1% 5% 1%;
+    }
+
+    .showcase-text {
+        h1 {
+            font-size: 1.5rem;
+        }
+        p {
+            font-size: 0.8rem;
+        }
+    }
+
+    .bg-container {
+        flex-direction: column-reverse;
+        overflow: hidden;
+    }
+
+    .site-logo {
+        width: 30%;
+    }
+
+    .bg-image {
+        width: 120%;
+    }
+
+    .bg-text {
+        text-align: center;
+        max-width: 100%;
+        h1 {
+            font-size: 2.5rem;
+        }
+        p {
+            font-size: 1rem;
+            max-width: 80%;
+            margin: 5% 0 0 10%;
+        }
+    }
+
+    /* Store container and it's elements */
+
+    .store-container {
+        h2 {
+            font-size: 1rem;
+        }
+    }
+
+    .carousel-container {
+        margin-top: 10%;
+    }
+
+    .slide-image {
+        width: 80%;
+        height: 80%;
+    }
+
+    .next {
+        right: 0%;
+    }
+
+    .prev {
+        left: 0%;
+    }
+  
+    .dot {
+        width: 10px;
+        height: 10px;
+    }
+
+    /* Contact container and it's elements */
+
+    .adress-container {
+        p {
+            margin: 0% 0% 0% 2%;
+        }
+    }
+    
+    #map {
+        width: 345px;
+        height: 400px;
+        margin: 10% 2% 5%;
+    }
+
+    .social {
+        width: 10%;
+        margin: 5% 1% 5% 1%;
+    }
+
+}
