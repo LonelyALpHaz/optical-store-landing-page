@@ -15,4 +15,4 @@
 
 ## Recursos utilizados
 
-Projeto desenvolvido em ```HTML5```, ```CSS3``` e ```JavaScript```, API do ```Leaflet``` para exibição do mapa e imagens do ```Unsplash``` que simula um site comercial de uma ótica.
+Projeto desenvolvido em ```HTML5```, ```CSS3``` e ```JavaScript```, API do ```Leaflet``` para exibição do mapa, imagens do ```Unsplash``` e deploy do projeto feito no ```Vercel``` que simula um site comercial de uma ótica.
