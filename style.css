@@ -498,18 +498,26 @@ footer {
 
     /* Products container and it's elements */
 
+    .showcase-products {
+        flex-direction: column;
+    }
+
     .showcase-image {
-        width: 160px;
-        height: 260px;
+        width: 90%;
         margin: 5% 1% 5% 1%;
+        order: 1;
     }
 
     .showcase-text {
+        max-width: 100%;
+        order: 2;
         h1 {
-            font-size: 1.5rem;
+            margin: 5% 0% 5%;
+            font-size: 2rem;
         }
         p {
-            font-size: 0.8rem;
+            font-size: 1.2rem;
+            margin-bottom: 5%;
         }
     }
 
@@ -580,7 +588,7 @@ footer {
         margin: 10% 0;
         left: 1%;
         width: 98%;
-        height: 420px;
+        height: 350px;
     }
 
     .social {
