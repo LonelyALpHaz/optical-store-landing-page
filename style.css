@@ -62,6 +62,49 @@ footer {
     }
 }
 
+/* Images credits div */
+
+.home-credits {
+    display: flex;
+    text-align: right;
+    justify-content: end;
+    align-items: end;
+    margin-right: 20px;
+    margin-top: 1px;
+}
+
+.right-credits {
+    display: flex;
+    position: absolute;
+    margin: 0 0 100% 18%;
+}
+
+.left-credits {
+    display: flex;
+    text-align: right;
+    justify-content: end;
+    align-items: end;
+    margin-right: 17%;
+    padding-bottom: 5%;
+}
+
+.middle-credits {
+    margin: 0 0 0 10px;
+}
+
+.carousel-credits {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 3px;
+    font-size: 1rem;
+    bottom: 10px;
+    right: 27.7%;
+    padding: 5px;
+    max-width: 95%;
+    box-sizing: border-box;
+}
+
 /* Top nnav bar */
 
 #logo {
@@ -263,6 +306,7 @@ footer {
 }
 
 .slide {
+    position: relative;
     align-items: center;
     justify-content: center;
     display: none;
