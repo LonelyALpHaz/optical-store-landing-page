@@ -472,6 +472,12 @@ footer {
         }
     }
 
+    /* Images credits div */
+
+    .home-credits, .right-credits, .left-credits, .middle-credits, .carousel-credits {
+        display: none;
+    }
+
     /* Top nnav bar */
 
     .nav-bar {
@@ -594,13 +600,17 @@ footer {
     /* Store container and it's elements */
 
     .store-container {
+        height: 550px;
+        h1 {
+            margin-top: 10%;
+        }
         h2 {
             font-size: 1rem;
         }
     }
 
     .carousel-container {
-        margin-top: 10%;
+        margin-top: 20%;
     }
 
     .slide-image {
