@@ -5,9 +5,9 @@
 </div>
 
 # Preview
-<img src="assets/screenshots/Screenshot_1">
-<img src="assets/screenshots/Screenshot_2">
-<img src="assets/screenshots/Screenshot_3">
+<img src="assets/screenshots/Screenshot_1.png">
+<img src="assets/screenshots/Screenshot_2.png">
+<img src="assets/screenshots/Screenshot_3.png">
 
 # Recursos utilizados
 
